@@ -1,8 +1,18 @@
 .main-sidebar {
   height: 100vh;
+  position: fixed;
   overflow: scroll;
+}
+
+.sidebar {
+  margin-top: 55px;
 }
 
 .brand-link {
   width: inherit !important;
+}
+
+.scroller {
+  width: inherit;
+  overflow-y: hidden;
 }
