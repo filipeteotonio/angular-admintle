@@ -26,9 +26,6 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.scss",
-              "./node_modules/ionicons/css/ionicons.min.css",
-              "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-              "./node_modules/icheck-bootstrap/icheck-bootstrap.min.css",
               "src/styles/adminlte.min.css"
             ],
             "scripts": [
