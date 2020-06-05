@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+// @import '~bootstrap/scss/bootstrap';
+
+@import '~ionicons/css/ionicons.min.css';
+
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import '~icheck-bootstrap/icheck-bootstrap.min.css';
+
+@import '~ngx-toastr/toastr';
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.content {
+  padding: 0 0.5em;
+}
+
+.layout-navbar-fixed .wrapper .main-header {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1039 !important;
+}
